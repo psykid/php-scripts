@@ -1,0 +1,27 @@
+<html>
+<script type="text/javascript">
+function showHide(shID) {
+	if (document.getElementById(shID)) {
+		if (document.getElementById(shID+'-show').style.display != 'none') {
+			document.getElementById(shID+'-show').style.display = 'none';
+			document.getElementById(shID).style.display = 'block';
+		}
+		else {
+			document.getElementById(shID+'-show').style.display = 'inline';
+			document.getElementById(shID).style.display = 'none';
+		}
+	}
+}
+</script>
+
+<table height="20" width="775" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<font face="lucidagrande" size="4" color="black">Trainee Insurance Broker - London<br><br></font>
+<td align="right" onclick="showHide('more');">
+<font face="lucidagrande" size="2" color="red">See More...</font> 
+</td>
+<td id="more" style="display:none;">The guy will see this when he clicks See More...</td>
+</tr>
+</table>
+</html>

@@ -1,0 +1,19 @@
+@charset "utf-8";
+#head {
+	color: hsla(267,75%,59%,1.00);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	font-size: large;
+	border-top-right-radius: 7px;
+	background-attachment: fixed;
+	background-color: hsla(268,73%,90%,1.00);
+	height: 3%;
+}
+#nav {
+	float: left;
+	width: 15%;
+	height: 100%;
+	display: block;
+	padding-top: 5px;
+}
